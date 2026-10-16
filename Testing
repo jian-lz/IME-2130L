@@ -1,0 +1,9 @@
+units = [420, 445, 430, 470, 490]
+total = sum(units)
+print('Weekly total:', total)
+import matplotlib.pyplot as plt
+days = ['Mon','Tue','Wed','Thu','Fri']
+plt.bar(days, units)
+plt.title('Press 4 output')
+plt.ylabel('Units')
+plt.show()
